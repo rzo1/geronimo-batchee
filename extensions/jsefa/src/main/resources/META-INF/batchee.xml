@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<batch-artifacts xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+<batch-artifacts xmlns="https://jakarta.ee/xml/ns/jakartaee">
   <ref id="jsefaCsvReader" class="org.apache.batchee.jsefa.JSefaCsvReader" />
   <ref id="jsefaFlrReader" class="org.apache.batchee.jsefa.JSefaFlrReader" />
   <ref id="jsefaXmlReader" class="org.apache.batchee.jsefa.JSefaXmlReader" />

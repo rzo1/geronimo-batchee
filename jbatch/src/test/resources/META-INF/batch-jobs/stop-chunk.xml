@@ -13,7 +13,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<job id="stop-chunk" version="1.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+<job id="stop-chunk" version="2.0" xmlns="https://jakarta.ee/xml/ns/jakartaee">
   <step id="test">
     <chunk>
       <reader ref="org.apache.batchee.container.impl.ChunkStepControllerTest$Reader" />

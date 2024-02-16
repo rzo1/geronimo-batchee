@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<batch-artifacts xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+<batch-artifacts xmlns="https://jakarta.ee/xml/ns/jakartaee">
   <ref id="hazelcastLock" class="org.apache.batchee.hazelcast.HazelcastLockBatchlet" />
   <ref id="hazelcastUnlock" class="org.apache.batchee.hazelcast.HazelcastUnlockBatchlet" />
 </batch-artifacts>

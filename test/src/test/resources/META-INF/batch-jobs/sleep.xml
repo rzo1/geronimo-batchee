@@ -13,7 +13,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<job id="sleep" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+<job id="sleep" xmlns="https://jakarta.ee/xml/ns/jakartaee" version="2.0">
   <step id="doSleep">
     <batchlet ref="org.apache.batchee.test.components.SleepBatchlet">
       <properties>

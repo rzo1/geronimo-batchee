@@ -13,7 +13,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<job id="txtest1" version="1.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+<job id="txtest1" version="2.0" xmlns="https://jakarta.ee/xml/ns/jakartaee">
     <step id="txtest1-step">
         <chunk item-count="1">
             <reader ref="org.apache.batchee.its.transaction.TxErrorReader"></reader>

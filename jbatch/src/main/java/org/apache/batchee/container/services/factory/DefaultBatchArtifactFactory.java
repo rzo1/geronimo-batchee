@@ -45,7 +45,7 @@ public class DefaultBatchArtifactFactory implements BatchArtifactFactory, XMLStr
     // used for out extensions to get short names, spec doesn't impose to read multiple batch.xml so using it as a workaround
     private final static String BATCHEE_XML = "META-INF/batchee.xml";
 
-    private final static QName BATCH_ROOT_ELEM = new QName("http://xmlns.jcp.org/xml/ns/javaee", "batch-artifacts");
+    private final static QName BATCH_ROOT_ELEM = new QName("https://jakarta.ee/xml/ns/jakartaee", "batch-artifacts");
 
     // Uses TCCL
     @Override

@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<batch-artifacts xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+<batch-artifacts xmlns="https://jakarta.ee/xml/ns/jakartaee">
   <ref id="groovyReader" class="org.apache.batchee.groovy.GroovyItemReader" />
   <ref id="groovyProcessor" class="org.apache.batchee.groovy.GroovyItemProcessor" />
   <ref id="groovyWriter" class="org.apache.batchee.groovy.GroovyItemWriter" />

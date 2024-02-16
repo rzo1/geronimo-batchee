@@ -13,7 +13,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<job id="partition-stop" version="1.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+<job id="partition-stop" version="2.0" xmlns="https://jakarta.ee/xml/ns/jakartaee">
     <step id="the-step">
         <chunk item-count="10">
             <reader ref="org.apache.batchee.test.partitioned.PartitionedBatchTest$StopReader">

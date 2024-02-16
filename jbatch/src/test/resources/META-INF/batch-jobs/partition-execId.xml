@@ -13,7 +13,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<job id="partition-id" version="1.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+<job id="partition-id" version="2.0" xmlns="https://jakarta.ee/xml/ns/jakartaee">
   <step id="part-step">
     <chunk>
       <reader ref="org.apache.batchee.test.id.PartitionIdTest$Reader">

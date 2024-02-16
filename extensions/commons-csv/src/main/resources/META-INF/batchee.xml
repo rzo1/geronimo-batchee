@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<batch-artifacts xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+<batch-artifacts xmlns="https://jakarta.ee/xml/ns/jakartaee">
   <ref id="commonsCsvReader" class="org.apache.batchee.csv.CommonsCsvReader" />
   <ref id="commonsCsvWriter" class="org.apache.batchee.csv.CommonsCsvWriter" />
 </batch-artifacts>
