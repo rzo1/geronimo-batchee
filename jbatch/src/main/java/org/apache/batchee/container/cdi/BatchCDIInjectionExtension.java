@@ -50,6 +50,7 @@ public class BatchCDIInjectionExtension implements Extension {
 
     private volatile Map<ClassLoader, BeanManagerInfo> bmInfos = new ConcurrentHashMap<ClassLoader, BeanManagerInfo>();
 
+    private Boolean foundJobOp = false;
 
     static {
         boolean cdi11Available;
@@ -178,8 +179,6 @@ public class BatchCDIInjectionExtension implements Extension {
         return bmi;
     }
 
-    private Boolean foundJobOp = false;
-
     public <A> void processBean(final @Observes ProcessBean<A> processBeanEvent) {
         if (!foundJobOp) {
             if (processBeanEvent.getBean().getTypes().contains(JobOperator.class)) {
@@ -198,7 +197,7 @@ public class BatchCDIInjectionExtension implements Extension {
             logger.log(Level.FINE, "Deferring to other detected JobOperator Bean");
             return;
         }
-        logger.log(Level.FINE, "Didn't find JobOperator Bean, registering JBatch one");
+        logger.log(Level.FINE, "Didn't find JobOperator Bean, registering one");
         abd.addBean(new JobOpProducerBean(bm));
     }
 
