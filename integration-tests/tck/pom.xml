@@ -143,13 +143,6 @@
                                 </property>
                             </properties>
                             <dependenciesToScan>jakarta.batch:com.ibm.jbatch.tck</dependenciesToScan>
-                            <excludes>
-                                <!-- TODO Jakarta Batch 2.1 requires CDI integration to be present. Related tests will fail at the moment! -->
-                                <exclude>**/CDITests</exclude>
-                                <exclude>**/InjectImplProvidedJobOperatorTests</exclude>
-                                <!-- Only PropertySubstitutionTests#testCDIBatchPropsNonString(...) fails atm -->
-                                <exclude>**/PropertySubstitutionTests</exclude>
-                            </excludes>
                         </configuration>
                     </execution>
                     <execution>
@@ -171,13 +164,6 @@
                                 </property>
                             </properties>
                             <dependenciesToScan>jakarta.batch:com.ibm.jbatch.tck</dependenciesToScan>
-                            <excludes>
-                                <!-- TODO Jakarta Batch 2.1 requires CDI integration to be present. Related tests will fail at the moment! -->
-                                <exclude>**/CDITests</exclude>
-                                <exclude>**/InjectImplProvidedJobOperatorTests</exclude>
-                                <!-- Only PropertySubstitutionTests#testCDIBatchPropsNonString(...) fails atm -->
-                                <exclude>**/PropertySubstitutionTests</exclude>
-                            </excludes>
                         </configuration>
                     </execution>
                     <execution>
@@ -204,13 +190,6 @@
                                 </property>
                             </properties>
                             <dependenciesToScan>jakarta.batch:com.ibm.jbatch.tck</dependenciesToScan>
-                            <excludes>
-                                <!-- TODO Jakarta Batch 2.1 requires CDI integration to be present. Related tests will fail at the moment! -->
-                                <exclude>**/CDITests</exclude>
-                                <exclude>**/InjectImplProvidedJobOperatorTests</exclude>
-                                <!-- Only PropertySubstitutionTests#testCDIBatchPropsNonString(...) fails atm -->
-                                <exclude>**/PropertySubstitutionTests</exclude>
-                            </excludes>
                         </configuration>
                     </execution>
                 </executions>
